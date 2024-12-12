@@ -31,6 +31,10 @@
   display: inline-block;
   flex-grow: 1;
 }
+#topSectionForAddingElementToList {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 .task-row-wrapper {
   display: flex;
 }
