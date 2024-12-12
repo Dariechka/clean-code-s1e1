@@ -21,7 +21,7 @@
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,15 +31,15 @@
   display: inline-block;
   flex-grow: 1;
 }
-#topSectionForAddingElementToList {
+#addedTasks {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 .task-row-wrapper {
   display: flex;
 }
-#incompleteTasks,
-#completed-tasks {
+#incompletedTasks,
+#completedTasks {
   margin: 0;
   padding: 0px;
 }
@@ -130,7 +130,7 @@
   transform: rotateZ(0);
 }
 /* Completed */
-#completed-tasks .input__label {
+#completedTasks .input__label {
   text-decoration: line-through;
   color: #888;
 }
